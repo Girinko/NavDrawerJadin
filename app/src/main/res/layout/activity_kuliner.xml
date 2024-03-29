@@ -48,7 +48,7 @@
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:elevation="30dp"
         android:layout_marginStart="15dp"
         android:layout_marginEnd="15dp"
@@ -64,7 +64,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="dummy text deskripsi"
-                android:textSize="15dp"
+                android:textSize="17dp"
                 android:textAlignment="center"/>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
