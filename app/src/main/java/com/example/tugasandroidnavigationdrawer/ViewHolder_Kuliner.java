@@ -62,7 +62,7 @@ public class ViewHolder_Kuliner extends RecyclerView.ViewHolder implements View.
 
     @Override
     public void onClick(View v) {
-        Intent intent = new Intent(context, Kuliner.class);
+        Intent intent = new Intent(context, Khas.class);
         intent.putExtra("nama", currentItem.getNama());
         intent.putExtra("img", currentItem.getImage());
         intent.putExtra("rating", currentItem.getRating());

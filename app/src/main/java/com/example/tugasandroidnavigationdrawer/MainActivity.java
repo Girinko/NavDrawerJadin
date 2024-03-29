@@ -10,8 +10,8 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.drawerlayout.widget.DrawerLayout;
 
 import com.example.tugasandroidnavigationdrawer.fragments.MakananFavoritFragment;
-import com.example.tugasandroidnavigationdrawer.fragments.MakananKulinerFragment;
-import com.example.tugasandroidnavigationdrawer.fragments.MinumanKulinerFragment;
+import com.example.tugasandroidnavigationdrawer.fragments.MakananKhasFragment;
+import com.example.tugasandroidnavigationdrawer.fragments.MinumanKhasFragment;
 import com.google.android.material.navigation.NavigationView;
 
 public class MainActivity extends AppCompatActivity {
@@ -47,9 +47,9 @@ public class MainActivity extends AppCompatActivity {
                     showHomePage();
                 } else if(itemId == R.id.menu_item2){
                     getSupportFragmentManager().beginTransaction()
-                            .replace(R.id.content_frame, new MinumanKulinerFragment())
+                            .replace(R.id.content_frame, new MinumanKhasFragment())
                             .commit();
-                    getSupportActionBar().setTitle("Minuman Kuliner");
+                    getSupportActionBar().setTitle("Minuman Khas");
                 } else {
                     getSupportFragmentManager().beginTransaction()
                             .replace(R.id.content_frame, new MakananFavoritFragment())
@@ -71,10 +71,10 @@ public class MainActivity extends AppCompatActivity {
 
     private void showHomePage() {
         getSupportFragmentManager().beginTransaction()
-                .replace(R.id.content_frame, new MakananKulinerFragment())
+                .replace(R.id.content_frame, new MakananKhasFragment())
                 .commit();
 
-        getSupportActionBar().setTitle("Makanan Kuliner");
+        getSupportActionBar().setTitle("Makanan Khas");
     }
 
 }

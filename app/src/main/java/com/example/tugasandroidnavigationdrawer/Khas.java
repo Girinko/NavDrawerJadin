@@ -7,13 +7,10 @@ import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
 import com.bumptech.glide.Glide;
 
-public class Kuliner extends AppCompatActivity {
+public class Khas extends AppCompatActivity {
 
     TextView nama,deskripsi;
     ImageView Image,ImgRating;
@@ -23,7 +20,7 @@ public class Kuliner extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_kuliner);
+        setContentView(R.layout.activity_khas);
         nama =findViewById(R.id.TVnama);
         deskripsi = findViewById(R.id.TVdeskripsi);
         Image = findViewById(R.id.IVkuliner);

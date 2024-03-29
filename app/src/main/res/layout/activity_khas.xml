@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Kuliner"
+    tools:context=".Khas"
     android:orientation="vertical"
     android:background="@drawable/pattern_repeat">
     <androidx.cardview.widget.CardView
