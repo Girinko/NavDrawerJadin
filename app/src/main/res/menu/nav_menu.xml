@@ -3,14 +3,14 @@
     <item
         android:id="@+id/menu_item1"
         android:icon="@drawable/makanan"
-        android:title="Makanan Khas" />
+        android:title="Makanan Khas Semarang" />
     <item
         android:id="@+id/menu_item2"
         android:icon="@drawable/minuman"
-        android:title="Minuman Khas" />
+        android:title="Daftar Tim Liga Inggris" />
     <item
         android:id="@+id/menu_item3"
         android:icon="@drawable/favfoodicon"
-        android:title="Makanan favorit" />
+        android:title="Daftar Murid" />
     <!-- Add more items as needed -->
 </menu>
